@@ -2,4 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;}
+
+/****************** LUNGHEZZE */
+
+.w-100 {width: 100%;}
+.w-80 {width: 80%;}
+
+/******************* ALTEZZE */
+
+/******************** HEADER */
+
+header {
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    height: 70px;
+    padding-top: 5px;
+}
+
+.btnGray {
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.headerRight > i {
+    padding: 3px;
 }
