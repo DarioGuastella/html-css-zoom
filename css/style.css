@@ -16,7 +16,7 @@
 /******************* ALTEZZE */
 
 .h-70 {height: 70px;}
-.h-60 {height: 60px;}
+.h-80 {height: 80px;}
 
 /******************* MARGINI */
 
@@ -25,11 +25,27 @@
 .m0a {margin: 0 auto;}
 
 /******************* PADDING */
+.pr-10 {padding-right: 10px;}
+.pl-15 {padding-left: 15px;}
+.pl-21 {padding-left: 21px;}
+.pl-33 {padding-left: 33px;}
 .p-20x {padding: 20px 20px 0 0;}
 .p-20 {padding: 20px;}
 .pr-20 {padding-right: 20px;}
 .pl-20 {padding-left: 20px;}
-.pt-25 {padding-top: 25px;}
+.pl-25 {padding-left: 20px;}
+.pr-30 {padding-right: 30px;}
+.pr-35 {padding-right: 35px;}
+.pr-45 {padding-right: 45px;}
+.pr-50 {padding-right: 50px;}
+.pr-90 {padding-right: 90px;}
+
+.pt-32 {padding-top: 32px;}
+
+
+.pr-40 {padding-right: 40px;}
+
+
 
 /******************* POSIZIONI */
 
@@ -53,6 +69,7 @@
 .wrapped {flex-wrap: wrap;}
 
 .j-around {justify-content: space-around;}
+.j-between {justify-content: space-between;}
 /******************** HEADER */
 
 header {
@@ -77,8 +94,8 @@ header {
 /********************** MAIN */
 
 main {
-    background-color: gainsboro;
-    height: calc(100vh - 140px);
+    background-color: black;
+    height: calc(100vh - 150px);
     overflow: auto;
 }
 
@@ -102,7 +119,7 @@ main {
 
 footer {
     background-color: #222222;
-    height: 70px;
+    height: 80px;
 }
 
 .noStyle {
@@ -114,11 +131,13 @@ h3 {
 }
 
 .footerLeft {
+    width: 11%;
     
 
 }
 
 .footerCenter {
+    width: 50%;
     
 }
 
@@ -135,19 +154,27 @@ h3 {
 
 .red {
     background-color: #4a4a4a;
-    color: red;
-   
-    
-    
+    color: red; 
+
 }
 
-.mute {
-    padding-left: 15px;
+.green {
+    color: green;
 }
-.stop {
-    padding-left: 20px;
+
+.fa-angle-up {
+    align-self: center;
+}
+
+.fa-user-group {
+    padding: 0 40px 0 40px;
 }
 
 span {
-    margin-top: 0;
+    font-size: 13px;
 }
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
