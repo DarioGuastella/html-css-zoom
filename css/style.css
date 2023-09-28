@@ -2,15 +2,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;}
+    font-family: sans-serif;
+    color: white;
+}
 
 /****************** LUNGHEZZE */
 
 .w-100 {width: 100%;}
-.w-80 {width: 80%;}
+.w-90 {width: 90%;}
 
 /******************* ALTEZZE */
 
+/******************* POSIZIONI */
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+    
+}
+
+    
+
+/******************* FLEXBOX */
+
+.d-flex {
+    display: flex;
+    margin: 0 auto;
+}
+
+.wrapped {
+    flex-wrap: wrap;
+}
+
+.j-around {
+    justify-content: space-around;
+}
 /******************** HEADER */
 
 header {
@@ -31,4 +60,35 @@ header {
 
 .headerRight > i {
     padding: 3px;
+}
+
+/********************** MAIN */
+
+main {
+    background-color: gainsboro;
+    height: calc(100vh - 140px);
+    overflow: auto;
+}
+
+.imgBox {
+    height: 200px;
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+.nameBox {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    padding: 6px;
+}
+
+.nameBox > i {
+    padding-right: 5px;
+}
+
+/********************* FOOTER */
+
+.foo {
+    height: 70px;
+    background-color: #222222;
 }
