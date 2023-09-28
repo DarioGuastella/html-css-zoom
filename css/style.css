@@ -10,36 +10,42 @@
 
 .w-100 {width: 100%;}
 .w-90 {width: 90%;}
+.w-33 {width: 33%;}
 
 /******************* ALTEZZE */
 
+.h-70 {height: 70px;}
+
+/******************* MARGINI */
+
+.mt-20 {margin-top: 20px;}
+.ml-50 {margin-left: 50px;}
+.m0a {margin: 0 auto;}
+
+/******************* PADDING */
+.p-20 {padding: 20px;}
+.pr-20 {padding: 20px;}
+
 /******************* POSIZIONI */
 
-.absolute {
-    position: absolute;
-}
+.absolute {position: absolute;}
 
-.relative {
-    position: relative;
-    
-}
+.relative {position: relative;}
 
+/******************* DISPLAY */
+
+.d-flex {display: flex;}
+
+.d-inblock {display: inline-block;}
     
 
 /******************* FLEXBOX */
 
-.d-flex {
-    display: flex;
-    margin: 0 auto;
-}
+.j-start {justify-content: flex-start;}
 
-.wrapped {
-    flex-wrap: wrap;
-}
+.wrapped {flex-wrap: wrap;}
 
-.j-around {
-    justify-content: space-around;
-}
+.j-around {justify-content: space-around;}
 /******************** HEADER */
 
 header {
@@ -47,7 +53,6 @@ header {
     background-color: black;
     color: white;
     padding-right: 20px;
-    height: 70px;
     padding-top: 5px;
 }
 
@@ -88,7 +93,34 @@ main {
 
 /********************* FOOTER */
 
-.foo {
-    height: 70px;
+footer {
     background-color: #222222;
 }
+
+.noStyle {
+    list-style-type: none;
+}
+
+h3 {
+    padding-right: 20px;
+}
+
+.footerLeft {
+    
+
+}
+
+.footerCenter {
+    
+}
+
+.footerRight {
+    
+}
+
+.ended {
+    align-self: flex-end;
+}
+
+
+
