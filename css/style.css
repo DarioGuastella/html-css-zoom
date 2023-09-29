@@ -95,7 +95,7 @@ header {
 
 main {
     background-color: black;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 152px);
     overflow: auto;
 }
 
@@ -117,64 +117,87 @@ main {
 
 /********************* FOOTER */
 
-footer {
+.footer {
+    background-color: black;
+    height: 82px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+.row {
     background-color: #222222;
-    height: 80px;
-}
-
-.noStyle {
-    list-style-type: none;
-}
-
-h3 {
-    padding-right: 20px;
-}
-
-.footerLeft {
-    width: 11%;
-    
-
-}
-
-.footerCenter {
-    width: 50%;
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    height: 82px;
 }
 
 .footerRight {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 82px;
+}
 
+.footerCenter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerLeft {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerCol {
+    text-align: center;
+    padding: 10px;
+    height: 82px;  
     
 }
 
-.ended {
-    align-content: flex-end;
+ul {
+    list-style-type: none;
+    line-height: 32px;
 }
 
 
 
-.red {
-    background-color: #4a4a4a;
-    color: red; 
+.angleUp {
+    font-size: 15px;
+    margin-top: 30px;
+}
 
+footer i {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+li {
+    font-size: 13px;
+}
+
+.grey {
+    background-color: #4a4a4a;
+}
+
+.red {
+    color: red;
 }
 
 .green {
     color: green;
 }
 
-.fa-angle-up {
-    align-self: center;
+li.red {
+    line-height: 62px;
+    padding: 0 15px 0 15px;
 }
 
-.fa-user-group {
-    padding: 0 40px 0 40px;
+.pointer {
+    cursor: pointer;
 }
-
-span {
-    font-size: 13px;
-}
-
-.break {
-    flex-basis: 100%;
-    height: 0;
-  }
